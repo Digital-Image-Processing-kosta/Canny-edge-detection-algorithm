@@ -7,3 +7,5 @@
 **3.** Extracting score of red and blue dices from image (Matlab)
 
 **4.** Filtering and repairing quality of different images (Matlab) 
+
+**5** Canny's edge detection algorithm, written from scratch (Matlab)
