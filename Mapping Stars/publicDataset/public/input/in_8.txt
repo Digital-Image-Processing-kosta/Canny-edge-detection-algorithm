@@ -1,5 +1,0 @@
-C:\homework-publish\mapping_stars\public\set\8_src.png
-C:\homework-publish\mapping_stars\public\set\8_dst.png
-66 293
-560 592
-766 743
