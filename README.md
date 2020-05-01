@@ -1,3 +1,3 @@
-Writing a Canny's edge detection algorithm from scratch.
-
-**TESTING**: run the 'main.m' to test the algorithm.
+# CANNY EDGE DETECTION ALGORITHM
+Algorithm is written from scratch.
+TEST: run the **main.m** to test the algorithm.
