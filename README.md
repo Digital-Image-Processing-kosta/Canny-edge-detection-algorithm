@@ -28,7 +28,7 @@ All values of the magnitude of the gradient that are higher than T_high are set 
 
 Weak edges             |  Strong edges | Combined edges
 :-------------------------:|:-------------------------:|:-------------------------:
-![o1](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/15.png)  |  ![gx](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/13.png) | ![gy](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/14.png)
+![o1](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/22.png)  |  ![gx](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/21.png) | ![gy](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/23.png)
 
 # TEST
 Run the **main.m** to test the algorithm.
