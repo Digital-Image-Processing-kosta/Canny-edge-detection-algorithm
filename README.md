@@ -35,4 +35,4 @@ We iterate thorugh the combined map of the edges and if the edge is weak we chec
 ![final](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/24.png)<br />
 
 # TEST
-Run the **main.m** to test the algorithm.
+Run the **main.m** to test the algorithm on the *house.tif*, *camerman.tif*, *van.tif* and *lena.tif* images.
