@@ -18,9 +18,11 @@ Gradient magnitude            |  Gradient angle
 
 **4.** Quantization of the angle of the gradient on the following directions: 0, -45, 45, 90 degrees.<br />
 ![quantization](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/19.png)<br />
-**5,** Repression of the gradients that do not represent local maximum.
+**5.** Repression of the gradients that do not represent local maximum.<br />
 We iterate thorugh every pixel of the magnitude of the gradient and we read qunatized value of the gradient angle for that pixel. For every direction of the gradient angle specific matrix of 0s and 1s is defined:<br />
 ![matriciies](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/25.png)<br />
-We take the matrix that corresponds to the read quantized value of the gradient angle and multiply it with 3x3 gradient magnitude surrounding of the pixel. If the maximum value in the resulting 3x3 matrix is not in the middle, the pixel value is set to zero. This must NOT be done inplace.
+We take the matrix that corresponds to the read quantized value of the gradient angle and multiply it with 3x3 gradient magnitude surrounding of the pixel. If the maximum value in the resulting 3x3 matrix is not in the middle, the pixel value is set to zero. This must NOT be done inplace!<br />
+**6.** Determining the maps of weak and strong edges based on low and high threshold.
+
 # TEST
 Run the **main.m** to test the algorithm.
