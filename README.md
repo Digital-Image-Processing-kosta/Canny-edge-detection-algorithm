@@ -16,6 +16,7 @@ Gradient magnitude            |  Gradient angle
 :-------------------------:|:-------------------------:
 ![o1](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/16.png)  |  ![gx](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/17.png)
 
-
+**4.** Quantization of the angle of the gradient on the following directions: 0, -45, 45, 90 degrees.
+![quantization](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/19.png)
 # TEST
 Run the **main.m** to test the algorithm.
