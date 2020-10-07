@@ -30,5 +30,9 @@ Weak edges             |  Strong edges | Combined edges
 :-------------------------:|:-------------------------:|:-------------------------:
 ![o1](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/22.png)  |  ![gx](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/21.png) | ![gy](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/23.png)
 
+**7.** Determining final map of edges by including weak edges that are connected with strong edges.<br />
+We iterate thorugh the combined map of the edges and if the edge is weak we check the 3x3 surrounding arround that edge. If in that surrounding exists at least 1 strong edge, the value of the weak edge is set to strong. This must NOT be done in place! This procedure repeats until there is no change from weak to strong.<br />
+![final](https://github.com/Digital-Image-Processing-kosta/Canny-edge-detection-algorithm/blob/master/garbage/24.png)<br />
+
 # TEST
 Run the **main.m** to test the algorithm.
