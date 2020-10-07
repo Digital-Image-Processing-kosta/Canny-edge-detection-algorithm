@@ -1,9 +1,9 @@
 # CANNY EDGE DETECTION ALGORITHM
 Matlab implementation of Canny edge detection algorithm from scratch.
 # IMPLEMENTATION
-Algorithm contains following steps:
-**1.** Filtering input image with Gaussian filter with given standard deviation (filter size should be equal or greater than 6 * sigma)
-**2.** Determining horizontal and vertical gradients of the filtered image
+Algorithm contains following steps:<br />
+**1.** Filtering input image with Gaussian filter with given standard deviation (filter size should be equal or greater than 6 * sigma)<br />
+**2.** Determining horizontal and vertical gradients of the filtered image<br />
 
 Original Image             |  Gradients in x direction | Gradients in y direction
 :-------------------------:|:-------------------------:|:-------------------------:
